@@ -10,7 +10,8 @@ const _layout = () => {
       <Tabs.Screen
         name='index'
         options={{
-          title: "Home"
+          title: "Home",
+          headerShown: false //hide header for this tab
         }}
       />
       <Tabs.Screen
@@ -22,7 +23,7 @@ const _layout = () => {
       <Tabs.Screen
         name='setting'
         options={{
-          title: "Setting"
+          title: "Settings"
         }}
       />
     </Tabs>
